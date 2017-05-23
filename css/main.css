@@ -1,0 +1,32 @@
+body {
+  margin: auto;
+}
+
+#navbarHeader {
+  padding: 0px;
+  margin: 0px;
+}
+
+#navbarHeader > ul {
+  padding: 25px;
+}
+
+#navbarHeader > a {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+#countdownDiv > h1 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 250px;
+}
+
+#timer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
