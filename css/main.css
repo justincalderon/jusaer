@@ -1,5 +1,7 @@
 body {
   margin: auto;
+  background-image: url(../img/bg1.jpg);
+  background-repeat: no-repeat;
 }
 
 #navbarHeader {
@@ -11,22 +13,29 @@ body {
   padding: 25px;
 }
 
-#navbarHeader > a {
+#navbarHeader > ul > a {
   font-family: 'Raleway', sans-serif;
   color: black;
+  position: fixed;
+  padding-left: 50px;
 }
 
 .nav {
-  display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 #countdownDiv > h1 {
   font-family: 'Great Vibes', cursive;
   margin-top: 250px;
+  background-image: url(../img/bgname.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 
 #timer {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
+  z-index: -1;
 }
