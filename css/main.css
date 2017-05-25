@@ -2,6 +2,11 @@ body {
   margin: auto;
   background-image: url(../img/bg1.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
 }
 
 #navbarHeader {
@@ -23,6 +28,7 @@ body {
 
 #countdownDiv > h1 {
   font-family: 'Great Vibes', cursive;
+  font-size: 180px;
   color: white;
   text-shadow: 1px 1px 2px black;
   margin-top: 250px;
@@ -35,6 +41,16 @@ body {
 
 #timer {
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
+  font-size: 48px;
   padding-top: 25px;
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 1024px) {
+  body {
+
+  }
+  #countdownDiv > h1 {
+    font-size: 100px;
+  }
 }
